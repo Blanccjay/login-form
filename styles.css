@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(milad-fakurian-amTCbtl46G0-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #44494d;
+}
+
+.wrap {
+    width: 380px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrap h1 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box input {
+    width: 100%;
+    padding: 15px;
+    padding-left: 50px;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    outline: none;
+    background: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+.box input::placeholder {
+    color: #aaa;
+}
+
+.box i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 20px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.remember label input {
+    margin-right: 5px;
+    accent-color: #44494d;
+}
+
+.remember a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    background: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #44494d;
+}
+
+.register {
+    text-align: center;
+    font-size: 14px;
+}
+
+.register p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
